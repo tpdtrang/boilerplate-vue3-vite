@@ -1,3 +1,18 @@
 {
-  "files": []
+  "compilerOptions": {
+    "target": "ES6", // Hoặc ES2015, tùy theo nhu cầu
+    "lib": [
+      "ES2022", // Thêm thư viện ES2015
+      "DOM" // Thêm các thư viện khác mà bạn cần
+    ],
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "moduleResolution": "Bundler",
+    "types": ["vite/client", "vue"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
 }
