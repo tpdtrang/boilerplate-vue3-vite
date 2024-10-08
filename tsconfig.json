@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES6", // Hoặc ES2015, tùy theo nhu cầu
+    "target": "ES6",
     "lib": [
-      "ES2022", // Thêm thư viện ES2015
+      "ES2022", // Thêm thư viện ES2022
       "DOM" // Thêm các thư viện khác mà bạn cần
     ],
     "module": "ESNext",
